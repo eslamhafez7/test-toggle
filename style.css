@@ -1,0 +1,58 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box; 
+}
+body {
+	height: 100vh;
+	padding: 0 15px;
+}
+header {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px;
+}
+.logo {
+	text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+.navlist {
+	display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 200%;
+    top: 2.3rem;
+    background-color: #ccc;
+    padding: 35px;
+    gap: 1rem;
+    transition: 0.4s all; 
+}
+ul {
+	list-style: none;
+}
+.navlist a {
+	color: #000;
+	text-decoration: none;
+}
+.toggle {
+	color: #000;
+    background-color: #000;
+    width: 10px;
+    height: 10px;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.show {
+	right: -.9rem;
+}
+.nav-close {
+	background-color: #000;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+
+}
